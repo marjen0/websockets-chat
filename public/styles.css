@@ -1,11 +1,16 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Nunito';
+    background-color: black;
 }
 
 h2{
     font-size: 18px;
     padding: 10px 20px;
-    color: #575ed8;
+    color: #ff7b00;
 }
 
 #chat{
@@ -14,6 +19,7 @@ h2{
     border: 1px solid #ddd;
     box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
     border-radius: 2px;
+    background-color: #fff;
 }
 
 #chat-window{
@@ -36,7 +42,7 @@ h2{
 }
 
 #output strong{
-    color: #575ed8;
+    color: #ff7b00;
 }
 
 label{
@@ -59,7 +65,7 @@ input{
 }
 
 button{
-    background: #575ed8;
+    background: #ff7b00;
     color: #fff;
     font-size: 18px;
     border: 0;
